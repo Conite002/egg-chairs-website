@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;800&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito+Sans:wght@200;400;800&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Tangerine:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    color: "white";
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(226, 92, 92); 
+  }
+
+
+body{
+display: flex; 
+justify-content: center;
+font-family:'Poppins','Raleway','Nunito Sans', sans-serif;
+overflow-x: hidden;
+font-weight: 100;
+}
+
+.container-fluid{
+    margin : 0px 40px !important;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin: 30px 0px;
+}
+
+.navbar-logo{
+    color:#e500b6;
+    font-weight: bold;
+}
+
+.active>.navbar-link{
+    font-weight: bold;
+    padding: 10px;
+    border-bottom:2px #e500b6 solid;
+}
+
+.active{
+    color: white;
+    border-bottom: 2px #e500b6;
+}
+
+.login, .login>.navbar-link{
+    color: white;
+    background: #e500b6;
+    font-weight: 800;
+}
+
+.navbar-item:hover{
+    border-bottom: 2px #e500b6 solid;
+    /* background: rgb(252, 249, 249); */
+} 
+
+.navbar-item{
+    display: inline;
+    list-style-type: none;
+    padding:10px 0px;
+    margin: 0px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.navbar-link{    
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hot{
+    display: flex;
+    align-items: center;
+    color: #eb3f09;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.hot h4{
+    margin: 0px 5px;
+    text-transform: capitalize;
+}
+
+.hot>img{
+    width: 20px;
+    height: 25px;
+    transform: translate(0px,-5px);
+}
+
+.section{
+    font-family: 'Nunito Sans';
+    padding: 25px 0px;
+}
+
+.section .title{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin: 20px 0px;
+}
+
+.section .paragraph{
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin: 10px 0px;
+}
+
+.money{
+    display: flex;
+}
+
+.money .dollars{
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.money .text{
+    background: #b6e1dd;
+    padding: 8px ;
+    margin: 0px 10px;
+    border-radius: 6px;
+    color: #089b97;
+    font-weight: 600;
+}
+
+.start{
+    margin: 20px 0px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.start img{
+    width: 65px;
+}
+
+.buy{
+    display: flex;
+    background:#e500b6;
+    border-radius: 10px;
+    padding: 7px;
+    width: 150px;
+}
+
+.buy>span{
+    padding: 10px 20px;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+
+}
+
+.buy img{
+    width: 30px;
+}
+
+.collection{
+    color: #e500b6;
+    margin: 5px 0px;
+    font-weight: 200;
+}
+
+.more div{
+    margin: 30px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bgImg{
+    width: 100%;
+    margin-top: 20px;
+    transform: scale(1.2, 1) translate(100px);
+}
+
+.bgImg2{
+    margin-top: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.bgImg3{
+    width: 200px;
+    width: 200px;
+    transform: scale(3) translate(50px);
+}
+
+.imageCtn{
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h3{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e500b6;
+    background-color: #f3ceeb;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.description p{
+    color: #929c9a;
+    margin: 20px 0px;
+    font-size: 2rem;
+    font-family: 'Tangerine';
+}
+
+.like{
+    background: #e500b6;
+    color: white;
+    font-weight: 800;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.like span{
+    margin: 0px 0px 0px 20px;
+    padding: 2px;
+    border-radius: 60%;
+    background: white;
+    color: #e500b6;
+}
+
+.section-img2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:#f3ceeb; */
+    background: rgb(255,255,255);
+    background: linear-gradient(209deg, rgba(255,255,255,1) 0%, rgba(238,167,238,1) 22%, rgba(240,213,223,1) 49%, rgba(249,176,220,1) 99%);    margin-top: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.author{
+    color: white;
+    font-weight: bold;
+}
+
+.author .contact{
+    color: #e500b6;
+}
